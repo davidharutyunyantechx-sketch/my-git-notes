@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Media Page</title>
+</head>
+<body>
+    <header>
+        <h1>Media Showcase</h1>
+    </header>
+
+    <main>
+        <!-- Sample Image -->
+        <section>
+            <h2>Sample Image</h2>
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+                 alt="Beautiful Sunset at the Lake" width="400">
+        </section>
+
+        <!-- Responsive Image using <picture> -->
+        <section>
+            <h2>Responsive Image</h2>
+            <picture>
+                <source media="(min-width: 800px)"
+                        srcset="https://images.unsplash.com/photo-1506744038136-46273834b3fb">
+                <source media="(max-width: 799px)"
+                        srcset="https://images.unsplash.com/photo-1506744038136-46273834b3fb">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+                     alt="Responsive Mountain Landscape" width="400">
+            </picture>
+        </section>
+
+        <!-- YouTube Embed -->
+        <section>
+            <h2>Featured Video</h2>
+            <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/lcvUGs3xaDM"
+                    title="Movie Trailer"
+                    frameborder="0"
+                    allowfullscreen>
+            </iframe>
+        </section>
+
+        <!-- Google Map -->
+        <section>
+            <h2>Location</h2>
+            <iframe width="600" height="450"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.1169455701426!2d44.5198927!3d40.1801216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abcb0b63c2451%3A0x123456789abcdef!2sExample+Location!5e0!3m2!1sen!2sus!4v1676543210000!5m2!1sen!2sus"
+                    allowfullscreen=""
+                    loading="lazy">
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Media Page</p>
+    </footer>
+</body>
+</html>
