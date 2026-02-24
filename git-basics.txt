@@ -1,0 +1,5 @@
+GitHub is the environment for Git Source Control
+Friendly User interface where you can collaborate with your teammates, keep the progress going, review the code.
+
+
+ssh-keygen -t ed25519 -C "david.harutyunyan.techx@gmail.com"
