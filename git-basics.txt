@@ -1,0 +1,3 @@
+Git helps me save and track my code changes.
+I can go back to older versions if I make a mistake.
+It works on my computer.
