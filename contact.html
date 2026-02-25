@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        <main>
+            <form action ="#" method ="post">
+                <!-- Name -->
+                <div>
+                    <label for="name">Full Name:</label>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <br>
+                <!-- Email -->
+                 <div>
+                    <label for ="Email">Email Adress:</label>
+                     <span>&nbsp;</span>
+                    <input type="email" id="email" name="email" required>
+                 </div>
+                 <br>
+                 <!-- Age -->
+                  <div>
+                    <label for="Age">Age:</label>
+                    <input type="number" id="Age" name="Age" min="1" max="120">
+                  </div>
+                  <br>
+                  <!-- Topic -->
+                   <div>
+                    <label for="Topic">Topic:</label>
+                    <select>
+                        <option value="general">General</option>
+                        <option value="support">Support</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                   </div>
+                   <br>
+                   <!-- Contact Method -->
+                    <section>
+                        <legend>Preffered Contact Method:</legend>
+                        <label>
+                            <input type="radio" name="contact" value="email" required>Email</label>
+                        <label>
+                            <input type="radio" name="contact" value="phone">Phone</label>
+                    </section>
+                    <br>
+                    <!-- Message -->
+                    <div>
+                       <label for="message">Your Message:</label><br>
+                       <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+                    </div>
+                    <br>
+                    <!-- Submit -->
+                     <div>
+                        <button type="submit">Submit</button>
+                     </div>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2026 My Website</p>
+        </footer>
+    </body>
+</html>
